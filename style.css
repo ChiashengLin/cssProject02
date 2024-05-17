@@ -1,0 +1,54 @@
+.works-list li{
+    list-style: none;
+}
+
+.works-list{
+    width:1296px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.works-list li{
+    padding:20px;
+}
+
+
+.works-list li img{
+    width:400px;
+}
+
+h2{
+    padding:10px;
+}
+
+.works-list p{
+    padding:0 10px;
+}
+
+.works-tags{
+    display: flex;
+    list-style: none;
+    padding: 10px 5px;
+}
+
+.works-tags li{
+    background-color:lightgrey;
+    color: #393939;
+    padding: 5px 10px;
+    border-radius: 30px;
+    margin: 8px;
+}
+
+.header .nav{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+
+.nav li{
+    padding:0 10px;
+}
